@@ -53,6 +53,7 @@ function App() {
       <Header title="My Todos List" searchBar={false}/> 
             <AddTodo addTodo={addTodo} />
             <Todos todos={todos} onDelete={onDelete} /> 
+            <Footer />
           
     </>
   );
